@@ -12,7 +12,6 @@
 from art import logo
 import random
 
-
 # def computer(computer_card):
 #     val=0
 #     for i in computer_card:
@@ -123,6 +122,6 @@ def play_game():
     print(f"   Your final hand: {user_cards}, final score: {user_score}")
     print(f"   Computer's final hand: {computer_cards}, final score: {computer_score}")
     print(compare(user_score, computer_score))
-while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower() == "y":
+while input("Do you want to play a game of BlackJack? Type 'y' or 'n': ").lower() == "y":
     play_game()
 
