@@ -71,23 +71,23 @@ def calculate_score(temp_cards):
 
 def compare(user_score,computer_score):
     if user_score > 21 and computer_score > 21:
-        return "You went over.You lose😤"
+        return "You went over.You lose"
     if user_score == computer_score:
-        return "Draw🙃"
+        return "Draw"
     if user_score == computer_score:
-        return "Draw 🙃"
+        return "Draw"
     elif computer_score == 2:
-        return "Lose, opponent has Blackjack 😱"
+        return "Lose, opponent has Blackjack"
     elif user_score == 2:
-        return "Win with a Blackjack 😎"
+        return "Win with a Blackjack"
     elif user_score > 21:
-        return "You went over. You lose 😭"
+        return "You went over. You lose"
     elif computer_score > 21:
-        return "Opponent went over. You win 😁"
+        return "Opponent went over. You win"
     elif user_score > computer_score:
-        return "You win 😃"
+        return "You win"
     else:
-        return "You lose😰"
+        return "You lose"
 
 
 
